@@ -1,0 +1,50 @@
+{
+  "name": "ernestdefoe/calendar",
+  "description": "A full-featured calendar & events extension for Flarum 2 — month/list views, RSVP, categories, recurring events, cover images, iCal feed + Google Calendar export, and an Upcoming-Events widget (works on the default theme, Bespoke, and Page Builder).",
+  "keywords": ["flarum", "flarum-extension", "calendar", "events", "ical", "rsvp"],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ernestdefoe",
+      "email": "ernestdefoe@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/ernestdefoe/calendar",
+  "support": {
+    "issues": "https://github.com/ernestdefoe/calendar/issues",
+    "source": "https://github.com/ernestdefoe/calendar"
+  },
+  "require": {
+    "php": "^8.3",
+    "flarum/core": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ErnestDefoe\\Calendar\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Calendar",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-calendar-days",
+        "backgroundColor": "#3b5bdb",
+        "color": "#fff"
+      },
+      "optional-dependencies": [
+        "fof/upload"
+      ]
+    },
+    "flarum-cli": {
+      "modules": {
+        "js": true,
+        "css": true,
+        "locale": true
+      }
+    }
+  },
+  "minimum-stability": "beta",
+  "prefer-stable": true
+}
