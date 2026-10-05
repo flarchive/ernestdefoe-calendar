@@ -2,24 +2,13 @@
 
 > **Read-only archive of released versions of ernestdefoe/calendar.** Not for installation: use [Packagist](https://packagist.org/packages/ernestdefoe/calendar) or the [upstream repository](https://github.com/ernestdefoe/calendar).
 
-**17** versions archived · Latest: [`v2.2.9`](https://github.com/flarchive/ernestdefoe-calendar/tree/archive/v2.2.9) · License: `MIT` · Flarum: `^2.0`
+**0** versions archived · Latest: [`v2.2.10`](https://github.com/flarchive/ernestdefoe-calendar/tree/archive/v2.2.10) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| `2.0.0` | 2026-06-04 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-calendar/tree/archive/v2.0.0) |
-| `2.0.1` | 2026-06-04 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-calendar/tree/archive/v2.0.1) |
-| `2.0.2` | 2026-06-04 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-calendar/tree/archive/v2.0.2) |
-| `2.0.3` | 2026-06-04 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-calendar/tree/archive/v2.0.3) |
-| `2.0.4` | 2026-06-05 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-calendar/tree/archive/v2.0.4) |
-| `2.0.5` | 2026-06-06 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-calendar/tree/archive/v2.0.5) |
-| `2.0.6` | 2026-06-09 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-calendar/tree/archive/v2.0.6) |
-| `2.1.0` | 2026-07-04 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-calendar/tree/archive/v2.1.0) |
-| `v2.2.0` | 2026-07-05 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-calendar/tree/archive/v2.2.0) |
-| `v2.2.1` | 2026-09-01 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-calendar/tree/archive/v2.2.1) |
-
-[View all 17 versions](https://github.com/flarchive/ernestdefoe-calendar/tags)
+| — | — | — | — |
 
 Catalog entry: [packages/ernestdefoe-calendar.json](https://github.com/flarchive/archive-index/blob/main/packages/ernestdefoe-calendar.json)
 
