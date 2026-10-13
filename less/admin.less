@@ -1,0 +1,32 @@
+// ernestdefoe/calendar — admin styles. Scalar settings render via the standard
+// Flarum settings UI; the category manager below is custom.
+.CalendarAdmin {
+  margin-top: 20px;
+
+  &-categories { margin-top: 12px; display: flex; flex-direction: column; gap: 10px; }
+
+  &-category {
+    display: flex; align-items: center; gap: 10px;
+    padding: 8px; border: 1px solid var(--control-bg); border-radius: 8px;
+    input.FormControl { flex: 1; min-width: 0; }
+  }
+  &-new { border-style: dashed; }
+
+  // colour control: a live swatch overlaying a native <input type=color>, plus quick presets
+  &-swatchWrap { position: relative; display: flex; align-items: center; gap: 6px; }
+  &-swatch {
+    width: 26px; height: 26px; border-radius: 6px; flex: none;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+  }
+  &-color {
+    position: absolute; left: 0; top: 0; width: 26px; height: 26px;
+    opacity: 0; cursor: pointer;
+  }
+  &-presets { display: inline-flex; gap: 3px; }
+  &-preset {
+    width: 16px; height: 16px; border: 0; border-radius: 4px; cursor: pointer; padding: 0;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.12);
+    &:hover { transform: scale(1.15); }
+  }
+  &-del { color: var(--alert-error-color, #c0392b) !important; }
+}
